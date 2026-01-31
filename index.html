@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Routing Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Traffic Routing Simulator</h1>
+
+<div class="controls">
+    Start Node: <input type="number" id="startNode" value="0" min="0">
+    Destination Node: <input type="number" id="endNode" value="5" min="0"><br>
+    Algorithm:
+    <select id="algorithm">
+        <option value="bfs">BFS</option>
+        <option value="dijkstra">Dijkstra</option>
+        <option value="prim">Prim (MST)</option>
+        <option value="kruskal">Kruskal (MST)</option>
+    </select>
+    <button onclick="runAlgorithm()">Run</button>
+</div>
+
+<canvas id="graphCanvas" width="800" height="500"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

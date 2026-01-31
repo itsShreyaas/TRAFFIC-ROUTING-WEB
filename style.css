@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    overflow: hidden;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px #000;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #ff784e;
+}
+
+canvas {
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
